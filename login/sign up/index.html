@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="">
+   
+<main> 
+
+<div class="w-60 px-5   item  m-auto my-5">
+    <form class="p-5 text-center m-auto ">
+       <h1>Smart Login System</h1>
+        <div class="">
+
+           
+           
+            <input placeholder="Enter Your Email" type="text" id="email" class="form-control text-white-50  my-3 ">
+
+        </div>
+        <div class="mb-4">
+           
+           
+        <div class="position-relative">
+            <input placeholder="Enter Your Password" type="password" id="password" class="form-control text-white-50 my-3">
+            <div class="position-absolute item2">
+                <i style="display: none;" id="icon3" class="fa-solid fa-eye"></i>
+                <i id="icon1" class="fa-solid fa-eye-slash bg-transparent "></i>
+            </div>
+        </div>
+        </div>
+        
+        <div style="display: none;" class="layer text-danger ">your input is requared</div>
+        <div style="display: none;" class="layer2 text-success "></div>
+        <div style="display: none;" class="layer3 text-danger ">incorrect email or password</div>
+        <button type="button"  class="btn btn-outline-info w-100 my-1"
+            id="loginBtn">Login</button>
+            <h5 class="text-white my-4 mb-0">Don’t have an account?
+               <a href="../login/index.html" class="text-white">sign Up</a>
+            </h5>
+    </form>
+</div>
+
+
+</main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+
+</html>
